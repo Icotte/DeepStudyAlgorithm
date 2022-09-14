@@ -75,14 +75,6 @@ class BOJ_2667 {
         }
     }
     
-    // 상 하 좌 우 탐색을 하다 주어진 맵의 영역을 벗어났는가?
-    func isOutOfMap(p: Point) -> Bool {
-        if p.x < 0 || p.x > info.n - 1 || p.y < 0 || p.y > info.n - 1 {
-            return true
-        }
-        return false
-    }
-    
     func searchDirectionArrow(currentPoint point: Point, queue: inout [Element]) {
         //"상 하 좌 우" 중 인접한 집 탐색
         for (dx,dy) in direction {
@@ -95,6 +87,15 @@ class BOJ_2667 {
             }
         }
     }
+    
+    // 상 하 좌 우 탐색을 하다 주어진 맵의 영역을 벗어났는가?
+    func isOutOfMap(p: Point) -> Bool {
+        if p.x < 0 || p.x > info.n - 1 || p.y < 0 || p.y > info.n - 1 {
+            return true
+        }
+        return false
+    }
+    
 }
 
 BOJ_2667().solution()
