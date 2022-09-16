@@ -2,6 +2,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedList;
@@ -58,6 +62,7 @@ class BFSDFS{
 		BFS(nodes[startNode-1]);
 	}
 	
+	//bfs - 큐로 구현
 	public void BFS(Node node) {
 		Queue<Node> queue = new LinkedList<>();
 		queue.add(node);
@@ -73,7 +78,8 @@ class BFSDFS{
 			}
 		}
 	}
-
+	
+	//dfs - 재귀호출로 구현
 	public void DFS(Node node) {
 		System.out.print(node.getData()+" ");
 		isVisited[node.getData()-1] = true;
@@ -84,10 +90,12 @@ class BFSDFS{
 		}
 	}
 	
+	//bfs와 dfs 사이에 배열을 초기화해주는 함수
 	public void InitVisitedArray() {
 		Arrays.fill(isVisited, false);
 	}
 }
+//노드를 객체화한 클레스
 class Node{
 	private int data;
 	private ArrayList<Node> linkedNode;
@@ -112,6 +120,7 @@ class Node{
 		return linkedNode;
 	}
 	
+	//그래프 탐색에서 불필요하지만 백준 출력에 맞추기 위하여 더 낮은 값을 먼저 탐색하기 위하여 정렬한다.
 	public void sort() {
 		linkedNode.sort(new Comparator<Node>() {
 			public int compare(Node a, Node b) {
