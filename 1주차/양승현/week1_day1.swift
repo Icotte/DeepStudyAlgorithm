@@ -1,5 +1,6 @@
 import Foundation
 
+// 주어진 입력에 대한 값을 저장하는 클래스
 struct NodeInfo {
     let nodeCount: Int
     let edgeCount: Int
@@ -17,6 +18,7 @@ class BOJ_1260{
     let nodeInfo: NodeInfo
     var graph :[[Int]]
     
+    // 주어진 입력값을 통해 nodeInfo에 
     init() {
         
         nodeInfo = NodeInfo()
@@ -28,7 +30,7 @@ class BOJ_1260{
             graph[aNode].append(bNode)
             graph[bNode].append(aNode)
         }
-        
+        //작은 수부터 탐색 할 수 있도록 특정 노드에 연결된 노드들 정렬
         for i in 1...nodeInfo.nodeCount {
             graph[i] = graph[i].sorted(by: <)
         }
@@ -39,6 +41,7 @@ class BOJ_1260{
         bfs(startNode: nodeInfo.startNode)
     }
     
+    //스택 사용한 dfs
     func dfs(startNode v: Int) {
         var result = ""
         var visited = Array(repeating: false, count: nodeInfo.nodeCount+1)
@@ -67,6 +70,7 @@ class BOJ_1260{
         print(result)
     }
     
+    // queue사용한 bfs
     func bfs(startNode v: Int) {
         var res = ""
         var queue = [Int]()
