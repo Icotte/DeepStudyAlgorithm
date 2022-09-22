@@ -23,7 +23,12 @@ class MapInfo {
     }
     
 }
-
+/*
+    문제에 대한 주요 알고리즘
+    1. exposedAir를 통해 노출된 공기 처리를 한다.
+    2. melting을 통해 외부 공기와 접촉된 치즈를 0으로 만들어 추후 실행될 exposedAir를 통해 녹이게 만든다.
+    3. 시간 체크를 한다.
+ */
 class BOJ_2636 {
     var info = MapInfo()
     var time = -1
