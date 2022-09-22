@@ -4,7 +4,6 @@
 //
 //  Created by seokhyun on 2022/09/22.
 //
-// ref: https://hooongs.tistory.com/264
 let dx = [-1, 1, 0, 0]
 let dy = [0, 0, -1, 1]
 let nm = readLine()!.split(separator: " ").map { Int(String($0))! }
