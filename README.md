@@ -16,7 +16,7 @@
 |1주차(9.13/9.14)|가중치가 0인 그래프를 탐색할 때 사용되는 DFS/BFS 차이점 탐구 및 알고리즘의 개념을 공부하고 알고리즘 이론을 실제 코드로 구현 및 백준 실버~ 골드5 난이도 문제 구현.          |<a href="https://github.com/Icotte/DeepStudyAlgorithm/tree/main/1%EC%A3%BC%EC%B0%A8">enter the site</a> |  👏 |
 |2주차(9.21)          | 1주 차에 학습한 DFS/BFS 개념을 기반으로 백준 골드3~5 난이도 심화 문제 선정 후 이론을 응용시킨 코드 실습  |<a href="https://github.com/Icotte/DeepStudyAlgorithm/tree/main/2%EC%A3%BC%EC%B0%A8">enter the site</a> | 👏 |
 |3주차(9.28)          |주어진 문제를 sub problem(작은 문제)으로 나누어 재귀 방식을 큰 문제를 해결해 나가는 방법을 탐구한 후 DP 방식을 적용해 백준 실버~골드5 문제를 고민하고 코드로 구현.| <a href="https://github.com/Icotte/DeepStudyAlgorithm/tree/main/3%EC%A3%BC%EC%B0%A8">enter the site</a>| 👏 |
-|4주차(10.05)          |3주 차에서 동적 계획법인 문제를 sub problem으로 해결해 나가는 방법을 기반으로 LIS, LCS 이론 공부 후 백준 문제 골2~ 골5 문제 3~5문제를 고민하고 코드로 구현.| <a href="https://github.com/Icotte/DeepStudyAlgorithm/tree/main/4%EC%A3%BC%EC%B0%A8">enter the site</a> | 🔭 |
+|4주차(10.05)          |3주 차에서 동적 계획법인 문제를 sub problem으로 해결해 나가는 방법을 기반으로 LIS, LCS 이론 공부 후 백준 문제 골2~ 골5 문제 3~5문제를 고민하고 코드로 구현.| <a href="https://github.com/Icotte/DeepStudyAlgorithm/tree/main/4%EC%A3%BC%EC%B0%A8">enter the site</a> | 👏 |
 |5주차(_)          |이진 탐색의 이론과 심화 문제 백준 실버 ~ 골드 5문제 해결하며 아이디어를 코드로 구현하는 능력 기르기| empty site | 🔭 |
 |6주차(_)          |퀵 정렬, 삽입정렬, 힙 정렬 이론을 학습하고 코드로 적용하는 코딩 실습.| empty site | 🔭 |
 |7주차(_)          |메모제이션을 활용하는 DP, 그래프의 탐색에 필요한 DFS/BFS, 히프 정렬을 통한 우선순위 큐 알고리즘을 알아야만 구현할 수 있는 최단경로 데이크스트라(Dijkstra) 알고리즘 이론 공부와 이론을 바탕으로 응용문제 실습| empty site | 🔭 |
