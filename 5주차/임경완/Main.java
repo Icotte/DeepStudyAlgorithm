@@ -37,8 +37,8 @@ class SemiconductorDesign{
         int idx = 1;
         int tmp = 0;
         for (int i = 1; i < arrayNum; i++) {
-        	//큰 수 앞에 끼어 저장한다.
             if (lis[idx - 1] < array[i]) { 
+		//큰 수 앞에 끼어 저장한다
                 lis[idx++] = array[i];
             } else if (lis[0] > array[i]) { 
             	// LIS의 0번째 수보다 작은 값으로 교체한다.
