@@ -20,4 +20,4 @@
 |5주차(10.12)          |이진 탐색의 이론과 심화 문제 백준 실버 ~ 골드 5문제 해결하며 아이디어를 코드로 구현하는 능력 기르기| <a href="https://github.com/Icotte/DeepStudyAlgorithm/tree/main/5%EC%A3%BC%EC%B0%A8">Enter the site</a> | 👏 |
 |6주차(11.1)          |퀵 정렬, 삽입정렬, 힙 정렬 이론을 학습하고 코드로 적용하는 코딩 실습.| <a href="https://github.com/Icotte/DeepStudyAlgorithm/tree/main/6%EC%A3%BC%EC%B0%A8">Enter the site</a> | 👏 |
 |7주차(11.8)          |메모제이션을 활용하는 DP, 그래프의 탐색에 필요한 DFS/BFS, 히프 정렬을 통한 우선순위 큐 알고리즘을 알아야만 구현할 수 있는 최단경로 데이크스트라(Dijkstra) 알고리즘 이론 공부와 이론을 바탕으로 응용문제 실습| <a href="https://github.com/Icotte/DeepStudyAlgorithm/tree/main/7%EC%A3%BC%EC%B0%A8">Enter the site</a> | 👏 |
-|8주차(11.15,11.16)          |실제 기업(카카오) 공시 채용 문제에 사용되는 알고리즘을 분석하고 아이디어를 도출해 코드로 구현해서 문제 실습| Enter the site | 👏 |
+|8주차(11.15,11.16)          |실제 기업(카카오) 공시 채용 문제에 사용되는 알고리즘을 분석하고 아이디어를 도출해 코드로 구현해서 문제 실습| <a href="https://github.com/Icotte/DeepStudyAlgorithm/tree/main/8%EC%A3%BC%EC%B0%A8">Enter the site</a> | 👏 |
